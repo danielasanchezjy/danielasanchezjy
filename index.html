@@ -10,32 +10,36 @@
     <title>Daniela Sanchez</title>
 </head>
 <body class='full-container flex-v'>
-    <div class='center title-container primary-color'>
-        <div class='title card f-80'>Daniela</div>
-        <div class='title card overl f-80'>Sanchez</div>
+    <div>
+        <div class='center title-container primary-color'>
+            <div class='title card f-60'>Daniela</div>
+            <div class='title card overl f-60'>Sanchez</div>
+        </div>
+        <div class="flex-h primary-color maleah f-22">
+            <p>joyería hecha a mano</p>
+        </div>
     </div>
-    <div class="flex-h primary-color maleah f-28 mb-140">
-        <p>joyería hecha a mano</p>
-    </div>
-    <div class="flex-h white poppins primary-background p-7 mb-20 f-20">
+    <div class="flex-h white poppins primary-background p-7 f-16 center">
         <p>¡Estamos en construcción con la misión de brindarte una experiencia única!</p>
     </div>
-    <div class="flex-h primary-color poppins f-20">
-        <p>Encuéntranos en nuestras redes como:</p>
+    <div>
+        <div class="flex-h center primary-color poppins f-16">
+            <p>Encuéntranos en nuestras redes como:</p>
+        </div>
+        <div class="flex-h primary-color poppins f-16 bold">
+            <p>DANIELASANCHEZJY</p>
+        </div>
     </div>
-    <div class="flex-h primary-color poppins f-20 bold">
-        <p>DANIELASANCHEZJY</p>
+    <div class="flex-h primary-color">
+        <a target="_blank" href="https://instagram.com/danielasanchezjy"><img class='social-media' src="./public/images/instagram.png" alt="instagram"></a>
+        <a target="_blank" href="https://facebook.com/danielasanchezjy"><img class='social-media' src="./public/images/facebook.png" alt="instagram"></a>
+        <a target="_blank" href="https://pinterest.com/danielasanchezjy"><img class='social-media' src="./public/images/pinterest.png" alt="instagram"></a>
     </div>
-    <div class="flex-h primary-color m-20">
-        <a target="_blank" href="https://instagram.com/danielasanchezjy"><img class='social-media m-20' src="./public/images/instagram.png" alt="instagram"></a>
-        <a target="_blank" href="https://facebook.com/danielasanchezjy"><img class='social-media m-20' src="./public/images/facebook.png" alt="instagram"></a>
-        <a target="_blank" href="https://pinterest.com/danielasanchezjy"><img class='social-media m-20' src="./public/images/pinterest.png" alt="instagram"></a>
+    <div class="action-buttons flex-v primary-color f-20">
+        <a class='center' href="https://wa.me/c/573142956755" target="_blank"><button>visita nuestro catálogo</button></a>
+        <a class='center' href="https://wa.me/message/YOUKR6LKGU4MM1" target="_blank"><button>¡habla con nosotras!</button></a>
     </div>
-    <div class="flex-h primary-color f-20 m-20">
-        <a href="https://wa.me/c/573142956755" target="_blank"><button class='m-20'>visita nuestro catálogo</button></a>
-        <a href="https://wa.me/message/YOUKR6LKGU4MM1" target="_blank"><button class='m-20'>¡habla con nosotras!</button></a>
-    </div>
-    <div class="flex-h primary-color maleah f-20 mt-100">
+    <div class="flex-h primary-color maleah f-20 ">
         <p>COL · VEN · USA</p>
     </div>
 </body>
@@ -51,6 +55,9 @@ body {
     height: 100vh;
     background: #fcf4f4 }
 
+.full-container > * {
+    margin: 20px auto !important; }
+
 .primary-color {
     color: #cd9e77 }
 
@@ -61,8 +68,9 @@ body {
     background-color: #cd9e77 }
 
 .title-container {
+    height: 60px;
     display: flex;
-    max-width: 405px; }
+    max-width: 355px; }
 
 .title {
     overflow: hidden;
@@ -155,21 +163,31 @@ font-size: 8px; }
 .f-80 {
   font-size: 80px; }
 
+.f-70 {
+  font-size: 70px; }
+
+.f-60 {
+  font-size: 60px; }
+
 .overl {
-    margin-left:-30px; }
+    margin-left:-76px; }
 
 .social-media {
-    width: 40px;
-    height: 40px;
-}
+    width: 32px;
+    height: 32px;
+    margin: 0 10px; }
+
+.action-buttons > * {
+    margin: 10px auto !important; }
 
 button {
+    width: 235px;
     background: none;
     color: #cd9e77;
     border: 1px solid;
     padding: 10px 20px;
-    font-size: 18px;
-    border-radius: 2px;
+    font-size: 14px;
+    border-radius: 3px;
     text-transform: uppercase; }
 
 @font-face {
